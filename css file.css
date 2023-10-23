@@ -1,0 +1,416 @@
+ #left {
+      
+       
+      flex: 20%;
+      background-color: #040e47;
+    }
+    .left-1 {
+      
+       
+      flex: 40%;
+    
+      background-color: #ffffff;
+    }
+
+
+    #right {
+      
+      
+      flex:80%;
+      background-color: #ffffff;
+    }
+    .right-1 {
+      
+      
+      flex:60%;
+      background-color: #ffffff;
+    }
+      #top-left{
+      width: 50%;
+      height: 10%;
+      float: left;
+      background-color: #ffffff;
+    }
+    #top-right{
+      width: 50%;
+      height: 10%;
+      float: right;
+      background-color: #ffffff;
+    }
+    .top {
+            flex: 12; 
+            background-color: #ffffff; 
+        }
+
+        .bottom {
+            flex: 1; 
+            background-color: #ffffff;
+        }
+    .container-1 {
+            display: flex;
+            flex-direction: column;
+            height: 77vh;
+        }
+        .container-2 {
+            display: flex;
+            flex-direction: row;
+            height: 77vh;
+        }
+    #publish{
+       
+      height: 45px;
+      width: 150px;
+      float: right;
+      border-color: #45ec9e;
+      background-color:#45ec9e ;
+      color: #000000;
+    }
+    #preview{
+      
+      height: 45px;
+      width: 150px;
+      float: right;
+      border-color: #45ec9e;
+      background-color:#ffffff ;
+      color: #000000;
+    }
+    #clear-all-button{
+      
+      height: 25px;
+      width: 75px;
+     
+      float:right;
+      font-size:20px ;
+     position: relative;
+      border-color: #45ec9e;
+      background-color:#ffffff ;
+      color: #000000;
+    }
+    #save{
+      
+      height: 25px;
+      width: 75px;
+     
+     
+      float:right;
+      font-size:20px ;
+      position: relative;
+     
+      border-color: #45ec9e;
+      background-color:#45ec9e ;
+      color: #000000;
+    }
+
+    /* Additional styling for content within the divs */
+    .container {
+            display: flex;
+            height: 100vh;
+        }
+        
+    button {
+      
+      margin:7px;
+      height: 45px;
+      width: 250px;
+      background-color: dodgerblue;
+      font-size: 25px;
+      display: inline-block;
+      
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a drop shadow */
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Add a hover effect */
+    }
+    button:hover {
+      background-color: #7db8f0; /* Change background color on hover */
+      transform: scale(1.1); 
+        }
+    
+    #page {
+      width: 950px;
+      height: 500px;
+      border: 1px;
+      padding:10px;
+      
+    }
+
+    .layoutTable  {
+      border-collapse:collapse ;
+      width: 112%;
+      height: 115%;
+      
+    }
+    .tr-1{
+      height: 40px;
+      width:60%;
+      
+    }
+    .tr-2{
+      height: 160px;
+    }
+
+    .layoutTable td {
+      border: 1px solid black;
+     padding: 10px;
+      border-style: dotted;
+      
+      
+    }
+    p{
+      color:#ffffff;
+      margin:0;
+      font-size: 23px;
+      font-family:rog fonts ;
+      text-align: center;
+      padding: 15px;
+    }
+    
+    .curved-button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px; /* Apply rounded corners */
+      background-color: #040e47;
+      color: #ffffff;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a drop shadow */
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Add a hover effect */
+
+    }
+    .editable-label {
+      width: 150px;
+      height: 20px;
+      background-color: #ffffff;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      text-align: center;
+      position: relative;
+      margin: 25px;      
+    }
+    
+    .curved-button:hover {
+      background-color: #7db8f0; /* Change background color on hover */
+      transform: scale(1.1); 
+        }
+      img{
+        width: 35px;
+      height: 35px;
+     
+      float:right;
+
+      }
+       .button-container {
+      text-align: center; /* Center-align content horizontally */
+    }
+     .button-logo {
+     
+      max-height: 100%; /* Ensure the logo doesn't exceed the button height */
+    }
+    .design-mode{
+        text-align: left;
+        font-size: 20px;
+        color: #000000;
+    }
+    .editable-label {
+  position: relative; /* Ensure relative positioning for the label container */
+}
+
+.editable-label:hover .label-actions {
+  /* Show the actions div when label is hovered */
+  display:contents;
+}
+
+.label-actions {
+  display: none;
+  position: absolute; /* Use absolute positioning for the action buttons */
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.label-actions button {
+  background:#9dff41;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 2px;
+}
+.editable-text-box {
+  width: 250px;
+  height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  font-size: 15px;
+  text-align: center;
+  margin: 25px;
+}
+
+
+.editable-text-box:hover .text-box-actions {
+  /* Show the actions div when text box is hovered */
+  display:contents;
+}
+
+.text-box-actions {
+  display: none;
+  position: absolute; /* Use absolute positioning for the action buttons */
+  top: 1;
+  right: 1;
+  background-color: #cc3a3a;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+ 
+}
+
+.text-box-actions button {
+  background:#9dff41;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 2px;
+  padding:0px ;
+}
+.button-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .button-box button {
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      width: 150px;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+      border: 1px solid rgb(255, 255, 255);
+     
+      cursor: pointer;
+    }
+
+    .button-box button:hover {
+      background-color: dodgerblue;
+      color: #fff;
+    }
+.dropdown-select {
+  width: 250px;
+  height: 20px;
+ text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 25px;
+}
+.checkbox-group {
+      display: flex;
+      align-items: center;
+    }
+
+    .checkbox-container {
+      display: flex;
+      margin: 8px;
+      padding: 0px;
+      
+      margin-right: 1px; /* Adjust the spacing between checkboxes and input fields */
+    }
+
+    .checkbox-container input[type="text"] {
+      width: 100%; /* Set the width to fill available space */
+    }
+    .radio-group {
+      display: flex;
+      align-items: center;
+    }
+
+    .radio-container {
+      display: flex;
+      margin: 8px;
+      
+      align-items: center;
+      margin-right: 10px; /* Adjust the spacing between radio buttons and input fields */
+    }
+
+    .radio-container input[type="text"] {
+      width: 100%; /* Set the width to fill available space */
+    }
+    .table-container {
+      display: flex;
+    }
+
+    .table-container table {
+      border-collapse: collapse;
+      margin: 15px;
+    }
+
+    .table-container table, .table-container th, .table-container td {
+      border: 1px solid #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .table-container input {
+      width: 100%;
+      border: 1px solid #ffffff;
+      transition: border-color 0.3s; /* Add a transition for border color */
+    }
+    
+    .link-box {
+      display: flex;
+      align-items: center;
+    }
+
+    .link-box input[type="text"] {
+      width: 80%;
+      padding: 5px;
+      margin-right: 10px;
+      border: 1px solid #000;
+      border-radius: 3px;
+    }
+
+    .link-box button {
+      background-color: #45ec9e;
+      color: #fff;
+      width: 150px;
+      height: 20px;
+      font-size: 12px;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .image-box img {
+      max-width: 100%;
+      max-height: 100%;
+      float:left;
+    }
+
+    .image-settings {
+      display: none;
+      position:absolute;
+      top: 0;
+      right: 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 5px;
+      z-index: 1;
+    }
+
+    .image-settings input[type="number"] {
+      width: 50px;
+    }
+
+    .image-settings button {
+      margin: 5px;
+      height:25px;
+      width:150px;
+      font-size: 15px;
+    }
+
+    .image-box:hover .image-settings {
+      display:contents;
+    }

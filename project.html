@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Divide Web Page into 20% and 80% Vertically</title>
+  <meta charset="UTF-8">
+  <link  rel="stylesheet" href="./css file.css">
+  <script src="./javascript file.js "></script>
+  
+ 
+</head>
+<body>
+<div class="container">
+<div  id="left" >
+  <p id="text">Form designer</p>
+
+  <button  class="curved-button" id="layout" draggable="true" ondragstart="drag(event)"> Layout</button>
+   <button class="curved-button" id="label" draggable="true" ondragstart="drag(event)">Label</button>
+    <button class="curved-button"  id="textbox" draggable="true" ondragstart="drag(event)">Text Box</button>
+    <button class="curved-button"  id="Dropdown" draggable="true" ondragstart="drag(event)">Dropdown</button>
+     <button class="curved-button"  id="Button" draggable="true" ondragstart="drag(event)">Button</button>
+      <button class="curved-button" id="Checkbox" draggable="true" ondragstart="drag(event)">Checkbox</button>
+       <button class="curved-button" id="Radiobutton" draggable="true" ondragstart="drag(event)">Radio Button</button>
+        <button class="curved-button" id="Table" draggable="true" ondragstart="drag(event)">Table</button>
+         <button class="curved-button" id="Navigation" draggable="true" ondragstart="drag(event)">Navigation</button>
+          <button class="curved-button" id="image" draggable="true" ondragstart="drag(event)">Image</button>
+
+
+  
+</div>
+
+<div id="right" >
+    
+
+    <div id="top-left">
+        <p  class="design-mode">design mode</p>
+    </div>
+    <div id="top-right">
+        
+        <button id="preview">preview</button>
+        <button id="publish">publish</button>
+    </div>
+  
+
+  <div id="page" ondrop="drop(event)" ondragover="allowDrop(event)">
+   
+   
+
+
+  </div>
+ 
+</div>
+</div>
+
+ 
+</div>
+
+</body>
+</html>
